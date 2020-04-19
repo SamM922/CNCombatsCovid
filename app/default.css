@@ -23,6 +23,7 @@ h1, h2{
   font-family: 'Montserrat', sans-serif;
   color: #48CCCD;
   text-align: center;
+  font-weight: 700;
 }
 button{
   align: center;

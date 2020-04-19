@@ -7,7 +7,12 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin-bottom: 10px;
-  animation:slide .5s linear;
+  width: 784px;
+  animation:slide .01s linear;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  align:center;
 }
 .links{
   font-weight: 700;
@@ -18,6 +23,10 @@
   margin-left: 25px;
   margin-right: 25px;
 }
+.flex{
+  display:flex;
+}
+
 @keyframes slide {
   0%   {width: 50%;}
   100% {width: 100%;}

@@ -13,6 +13,7 @@ class Navbar extends React.Component {
     });
 
     return (
+
       <div className="header">
         <h1>Hackathon COVID-19</h1>
         <nav className="links">{navbarLinks}</nav>
