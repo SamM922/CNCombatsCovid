@@ -1,0 +1,52 @@
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  min-width:500px;
+}
+p, li, a {
+  font-family: 'Montserrat', sans-serif;
+  color: #306754;
+  font-weight: 600;
+  text-align:center;
+}
+li{
+  font-size: 20px;
+}
+img{
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #48CCCD;
+  text-align: center;
+}
+button{
+  align: center;
+  background-color: #48CCCD;
+  color: #306754;
+  border: none;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding: 20px 36px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .react-icon {
+    animation: spin infinite 20s linear;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
