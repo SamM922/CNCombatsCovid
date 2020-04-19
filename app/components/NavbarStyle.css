@@ -1,0 +1,25 @@
+.header {
+  font-family: 'Montserrat', sans-serif;
+  color: #48CCCD;
+  text-align: center;
+  padding-bottom: 10px;
+  z-index:999;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  animation:slide .5s linear;
+}
+.links{
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color:#2962FF;
+  text-align:center;
+  text-decoration:none;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+@keyframes slide {
+  0%   {width: 50%;}
+  100% {width: 100%;}
+}
+

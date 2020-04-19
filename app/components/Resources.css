@@ -1,0 +1,27 @@
+body{
+  display:flex;
+}
+.title{
+  font-family: 'Montserrat', sans-serif;
+  color: #48CCCD;
+  text-align: center;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #306754;
+  text-align: center;
+  font-weight: 600;
+}
+img{
+  border-radius: 20px;
+}
+.covid{
+  margin-left: 5%;
+  margin-right: 5%;
+  display:flex;
+}
+.health{
+  margin-left: 5%;
+  margin-right: 5%;
+  display:flex;
+}
